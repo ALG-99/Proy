@@ -76,6 +76,7 @@ class Login extends \Controllers\PublicController
         }
         $dataView = get_object_vars($this);
         \Views\Renderer::render("security/login", $dataView);
+        
     }
 }
 ?>
